@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: typecho-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: typecho
+  template:
+    metadata:
+      labels:
+        app: typecho
+    spec:
+      containers:
+      - image: 80x86/typecho:latest
+        name: typecho-container
+        # resources:
+        #   requests:
+        #     memory: "200M"
+        #     cpu: "200m"
+        #   limits:
+        #     memory: "200M"
+        #     cpu: "200M"
+        ports:
+        - containerPort: 80

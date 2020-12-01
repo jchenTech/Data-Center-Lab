@@ -1,0 +1,10 @@
+{
+    "name": "ubuntu/focal64",
+    "versions": [{
+        "version": "0",
+        "providers": [{
+            "name": "virtualbox",
+            "url": "focal-server-cloudimg-amd64-vagrant.box"
+        }]
+    }]
+}
