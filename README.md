@@ -1,5 +1,3 @@
-
-
 本项目为华中科技大学数据中心技术实验，主要内容分为两个部分，即：
 
 * Kubernetes容器编排技术
@@ -220,3 +218,4 @@ Successfully deleted 256/256 objects in 491.3857ms
 - 如果客户端爆满将怎样?
 - 测试项为何出现 '**fail**'? (不是 terminate)
 - 横向扩展系统 (Scaling Out) 效果如何 (向系统中追加更多存储服务器)?
+
